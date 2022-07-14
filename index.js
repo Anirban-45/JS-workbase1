@@ -1,15 +1,6 @@
-//alert("stoopid Alert");
 
-//var age = 21;
-//var name = "Anniline";
-//var status = true;
+document.getElementById("myButton").onclick = function(){
 
-//console.log(name+ "'s age is "+ age);
-//console.log("status:",status);
-
-//var name = ;
-
-document.getElementById("myButton").onclick = function() {
-
-    var myName = document.getElementById('id');
+    var myName = document.getElementById("myText").value;
+    console.log(myName);
 }

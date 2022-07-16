@@ -8,14 +8,14 @@ console.log(phoneNumber, phoneNumber.replaceAll("-", ""));
 
 username = "  topsy turvy   ";
 
-console.log(username, username.trim());
+console.log(username, username.trim()); // eats up space
 
 //slice method:
 let name = "Dandelion Alamanda";
 let firstName, lastName;
 
-//lastName = name.slice(10);
-//firstName = name.slice(0,9);
+//lastName = name.slice(10);  // from 10th charachter to end
+//firstName = name.slice(0,9);  // from 0 to 9th
 
 lastName = name.slice(name.indexOf(" ") + 1);
 firstName = name.slice(0, name.indexOf(" "))

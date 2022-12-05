@@ -15,3 +15,14 @@ else if (age >= 18) {
 else {
     console.log("You are not an adult!");
 }
+
+// with Boolean
+
+let online = true;
+
+if (online) {
+    console.log("You are online");
+} 
+else {
+    console.log("You are offline");
+}

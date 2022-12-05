@@ -11,7 +11,7 @@ console.log("status:",status);
 
 //Showing on browser or DOM
 
-document.getElementById("p2").innerHTML = "Your are " + age + "years old."
+document.getElementById("p2").innerHTML = "Your are " + age + " years old."
 
 // Type conversion
 

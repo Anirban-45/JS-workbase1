@@ -22,5 +22,8 @@ document.getElementById("myButton").onclick = function() {
     else if (paypalRadio.checked) {
         console.log("You'll pay with Paypal");
     }
+    else {
+        console.log("You have not paid");
+    }
 
 }

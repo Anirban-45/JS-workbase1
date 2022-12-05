@@ -1,7 +1,7 @@
 1. Creating index.js
 2. Variables -> variables.js
 3. Operators & Datatypes
-4. Functions 
+4. Functions -> function.js
 5. User inputs -> Variables.js => window.prompt()
                   index.js => getElementByID
    User outputs -> Console.log(), innerHTML, alert, document.write

@@ -20,3 +20,7 @@
 13. Switch statement -> switch statement.js
 14. and/or logical operator -> and or not.js
     not logical operator -> and or not.js
+
+15. while, do while, for loops -> loops.js
+16. break and continue statement -> break continue.js
+17. nested loops -> nested loops.js

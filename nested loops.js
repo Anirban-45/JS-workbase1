@@ -10,7 +10,7 @@ for (let i = 0; i < 3; i++) {
 
 let symbol = "*";
 let rows = 4;
-let columns = 5;
+let columns = 7;
 
 for (let i = 0; i <= rows; i++) {
     for (let j = 0; j < columns; j++) {

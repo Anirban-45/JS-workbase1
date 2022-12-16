@@ -26,3 +26,6 @@
 17. while, do while, for loops -> loops.js
 18. break and continue statement -> break continue.js
 19. nested loops -> nested loops.js
+20. functions -> function.js
+21. return statement -> function.js
+22. variable scopes -> variable.js

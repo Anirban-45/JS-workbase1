@@ -33,3 +33,24 @@ console.log(z, typeof z);
 
 z = Boolean("");
 console.log(z, typeof z); // false
+
+// variable scope -> where the variables are accesible
+
+// let -> vaiables are limited to block scope {}
+// var -> variables are limited to a function ()
+
+for (let i = 0; i <= 3; i++) {
+    console.log(i);         
+}
+
+// i is not accessible outside of the blockscope {} of the for loop, if var was usedit could be accessed
+
+function oneToThree(){
+    for (var i = 1; i <= 3; i++) {
+        console.log(i);         
+    }
+}
+
+// over here even if we declared i by var it is not accesible outside of oneToThhree()
+// variables declared outside of any function is a global variable
+

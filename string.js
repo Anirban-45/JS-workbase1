@@ -27,14 +27,14 @@ console.log(lastName);
 
 let a = `Azure's dev tools`;        // Can use single or double quotes inside of it.
 let b = `Amazon
-        Web services`           // Can span upto multiline
+        Web services`;          // Can span upto multiline
 
 let continent = `Asia`
-let d = `My home is in ${continent}'s south.`   //We can put the variable with a ${} symbol. Its called interpolation.
+let d = `My home is in ${continent}'s south.`;  //We can put the variable with a ${} symbol. Its called interpolation.
 
 console.log(d);
 
-let x = `The land of ${continent} has a population of ${phoneNumber.charAt(6) + phoneNumber.charAt(4)} million`   
-                                                // interpolation supports JS expressions --> Expression substitution
+let x = `The land of ${continent} has a population of ${phoneNumber.charAt(6) + phoneNumber.charAt(4)} million`;
+                // interpolation supports JS expressions --> Expression substitution
 
 console.log(x);

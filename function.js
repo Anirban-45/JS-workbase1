@@ -25,4 +25,18 @@ function truthOrDare(username, status, description){        // name, status and 
 truthOrDare("Erira", "Dare", "balance on a tightrope");     // Passing the values(arguments) of parameters
 
 // Inside of the functions the parameters act as local variables
-// However, variables declared in functions can't be accessed outside.
+// However, variables declared inside functions can't be accessed outside.
+
+/* rwturn statement -> The last thing a function will come across
+                    -> This returns a value back where the function is revoked */
+
+function multiply(a, b) {
+    return a * b;
+}
+
+console.log(multiply(7, 11));      // returns the value after multiplying a an b
+
+// if there is no return statement the value of the invoked function will be "undefined"
+// accessing a function without the parenthesis will return the function as object. i.e. the function body itself
+
+console.log(multiply);
